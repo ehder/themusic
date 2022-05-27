@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/dark_gray"
+    android:background="@color/dark_gray"
+    tools:context=".fragments.ThemeFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/whiteTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_lens_50"
+                android:backgroundTint="@color/dark_gray"
+                app:tint="@color/whiteColorPrimary">
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/blackTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_lens_50"
+                android:backgroundTint="@color/dark_gray"
+                app:tint="@color/blackColorPrimary">
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/orangeTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_lens_50"
+                android:backgroundTint="@color/dark_gray"
+                app:tint="@color/orangeColorPrimary">
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/violetTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_lens_50"
+                android:backgroundTint="@color/dark_gray"
+                app:tint="@color/violetColorPrimary">
+            </ImageButton>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/pinkTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_lens_50"
+                android:backgroundTint="@color/dark_gray"
+                app:tint="@color/PinkColorPrimary">
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/rosewoodTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_lens_50"
+                android:backgroundTint="@color/dark_gray"
+                app:tint="@color/RosewoodColorPrimary">
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/bumblebeeTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_lens_50"
+                android:backgroundTint="@color/dark_gray"
+                app:tint="@color/BumblebeeColorPrimary">
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/eggplantTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_lens_50"
+                android:backgroundTint="@color/dark_gray"
+                app:tint="@color/EggplantColorPrimary">
+            </ImageButton>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

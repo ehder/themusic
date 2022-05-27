@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">THE MUSIC</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_text">This music is an application to play mp3 music on your android device. With simple interface make you enjoy the music
+        easily. Custom your color as you feel.
+    </string>
+    <string name="rate_text">Thank you for choosing this app. Please rate us in google play store.
+    </string>
+</resources>

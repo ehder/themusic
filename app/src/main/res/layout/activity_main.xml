@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--Main layout-->
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--tool bar-->
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
+
+            <!--view pager2-->
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/view_pager2"
+                android:layout_below="@id/toolbar"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <!--small media player layout-->
+            <LinearLayout
+                android:id="@+id/small_media_player_layout"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="?attr/actionBarSize"
+                android:orientation="horizontal">
+
+                <include layout="@layout/small_media_player_layout"/>
+
+            </LinearLayout>
+
+            <!--tab layout-->
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tab_layout"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/violetColorPrimaryDark"
+                android:backgroundTint="@color/violetColorPrimaryDark"
+                app:tabMode="fixed"
+                android:elevation="10dp"
+                app:tabGravity="fill"
+                android:layout_alignParentBottom="true">
+            </com.google.android.material.tabs.TabLayout>
+
+        </RelativeLayout>
+
+        <!--LEFT DRAWER-->
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/left_nav_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:headerLayout="@layout/left_drawer_layout"
+            android:background="@color/blackColorSecondary"
+            android:backgroundTintMode="screen"
+            android:layout_gravity="start"
+            app:itemShapeFillColor="@color/EggplantColorPrimary"
+            app:itemIconSize="30dp"
+            app:itemIconPadding="15dp"
+            android:fitsSystemWindows="true"
+            app:menu="@menu/drawer_nav_menu">
+
+        </com.google.android.material.navigation.NavigationView>
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+</RelativeLayout>

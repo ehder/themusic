@@ -1,0 +1,77 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="WhiteTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/whiteColorPrimary</item>
+        <item name="colorPrimaryDark">@color/whiteColorPrimaryDark</item>
+        <item name="colorSecondary">@color/whiteColorSecondary</item>
+        <item name="android:backgroundTint">@color/whiteColorPrimary</item>
+        <item name="background">@color/whiteColorPrimaryDark</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="BlackTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/blackColorPrimary</item>
+        <item name="colorPrimaryDark">@color/blackColorPrimaryDark</item>
+        <item name="colorSecondary">@color/blackColorSecondary</item>
+        <item name="android:backgroundTint">@color/blackColorPrimary</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="OrangeTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/orangeColorPrimary</item>
+        <item name="colorPrimaryDark">@color/orangeColorPrimaryDark</item>
+        <item name="colorSecondary">@color/orangeColorSecondary</item>
+        <item name="android:backgroundTint">@color/orangeColorPrimary</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="VioletTheme" parent="Theme.MaterialComponents">
+        <item name="colorPrimary">@color/violetColorPrimary</item>
+        <item name="colorPrimaryDark">@color/violetColorPrimaryDark</item>
+        <item name="colorSecondary">@color/violetColorSecondary</item>
+        <item name="android:backgroundTint">@color/violetColorPrimary</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="PinkTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/PinkColorPrimary</item>
+        <item name="colorPrimaryDark">@color/PinkColorPrimaryDark</item>
+        <item name="colorSecondary">@color/PinkColorSecondary</item>
+        <item name="android:backgroundTint">@color/PinkColorPrimary</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="RosewoodTheme" parent="Theme.MaterialComponents">
+        <item name="colorPrimary">@color/RosewoodColorPrimary</item>
+        <item name="colorPrimaryDark">@color/RosewoodColorPrimaryDark</item>
+        <item name="colorSecondary">@color/RosewoodColorSecondary</item>
+        <item name="android:backgroundTint">@color/RosewoodColorPrimary</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="BumblebeeTheme" parent="Theme.MaterialComponents">
+        <item name="colorPrimary">@color/BumblebeeColorPrimary</item>
+        <item name="colorPrimaryDark">@color/BumblebeeColorPrimaryDark</item>
+        <item name="colorSecondary">@color/BumblebeeColorSecondary</item>
+        <item name="android:backgroundTint">@color/BumblebeeColorPrimary</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="EggplantTheme" parent="Theme.MaterialComponents">
+        <item name="colorPrimary">@color/EggplantColorPrimary</item>
+        <item name="colorPrimaryDark">@color/EggplantColorPrimaryDark</item>
+        <item name="colorSecondary">@color/EggplantColorSecondary</item>
+        <item name="android:backgroundTint">@color/EggplantColorPrimary</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+</resources>

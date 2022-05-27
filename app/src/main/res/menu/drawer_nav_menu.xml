@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="theme"
+            android:id="@+id/theme"
+            android:icon="@drawable/theme_icon"></item>
+
+        <item android:title="rate"
+            android:id="@+id/rate"
+            android:icon="@drawable/rate_icon"></item>
+
+<!--        <item android:title="timer"
+            android:id="@+id/timer"
+            android:icon="@drawable/timer_icon"></item>-->
+
+        <item android:title="about"
+            android:id="@+id/about"
+            android:icon="@drawable/about_icon"></item>
+
+    </group>
+
+</menu>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android_Tutorial/THEMUSIC/app/src/main/res/drawable-v24/ic_loop_black.xml" value="0.173" />
+        <entry key="..\:/Android_Tutorial/THEMUSIC/app/src/main/res/drawable-v24/ic_repeat_red.xml" value="0.173" />
+        <entry key="..\:/Android_Tutorial/THEMUSIC/app/src/main/res/drawable-v24/items_bg.xml" value="4.0" />
+        <entry key="..\:/Android_Tutorial/THEMUSIC/app/src/main/res/drawable-v24/same_with_background.xml" value="0.1705" />
+        <entry key="..\:/Android_Tutorial/THEMUSIC/app/src/main/res/drawable/ic_baseline_lens_50.xml" value="0.1345" />
+        <entry key="..\:/Android_Tutorial/THEMUSIC/app/src/main/res/drawable/ic_loop_red.xml" value="0.1505" />
+        <entry key="..\:/Android_Tutorial/THEMUSIC/app/src/main/res/drawable/ic_settings.xml" value="0.1515" />
+        <entry key="..\:/Android_Tutorial/THEMUSIC/app/src/main/res/drawable/small_media_player_bg.xml" value="0.1635" />
+        <entry key="..\:/Android_Tutorial/THEMUSIC/app/src/main/res/drawable/timer_icon.xml" value="0.166" />
+        <entry key="..\:/Android_Tutorial/THEMUSIC/app/src/main/res/layout-v31/items.xml" value="0.209375" />
+        <entry key="..\:/Android_Tutorial/THEMUSIC/app/src/main/res/layout/activity_main.xml" value="0.1953125" />
+        <entry key="..\:/Android_Tutorial/THEMUSIC/app/src/main/res/layout/fragment_tab.xml" value="0.209375" />
+        <entry key="..\:/Android_Tutorial/THEMUSIC/app/src/main/res/layout/fragment_theme.xml" value="0.209375" />
+        <entry key="..\:/Android_Tutorial/THEMUSIC/app/src/main/res/layout/items.xml" value="0.33" />
+        <entry key="..\:/Android_Tutorial/THEMUSIC/app/src/main/res/layout/left_drawer_layout.xml" value="0.225" />
+        <entry key="..\:/Android_Tutorial/THEMUSIC/app/src/main/res/layout/left_drawer_layout_for_left_nav.xml" value="0.209375" />
+        <entry key="..\:/Android_Tutorial/THEMUSIC/app/src/main/res/layout/small_media_player_layout.xml" value="0.26796116504854367" />
+        <entry key="..\:/Android_Tutorial/THEMUSIC/app/src/main/res/menu/action_bar_menu.xml" value="0.15677083333333333" />
+        <entry key="..\:/Android_Tutorial/THEMUSIC/app/src/main/res/menu/drawer_nav_menu.xml" value="0.209375" />
+        <entry key="..\:/Android_Tutorial/THEMUSIC/app/src/main/res/menu/nav_menu_for_left_side_drawer.xml" value="0.15677083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

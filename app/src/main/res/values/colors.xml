@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="dark_gray">#8C8C8C</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="whiteColorPrimary">#F0EFE9E9</color>
+    <color name="whiteColorPrimaryDark">#474554</color>
+    <color name="whiteColorSecondary">#ACA7CB</color>
+
+    <color name="blackColorPrimary">#000000</color>
+    <color name="blackColorPrimaryDark">#222816</color>
+    <color name="blackColorSecondary">#1A343F</color>
+
+    <color name="orangeColorPrimary">#ED7014</color>
+    <color name="orangeColorPrimaryDark">#54433A</color>
+    <color name="orangeColorSecondary">#BCA79C</color>
+
+    <color name="violetColorPrimary">#A32CC4</color>
+    <color name="violetColorPrimaryDark">#4E4351</color>
+    <color name="violetColorSecondary">#B4A7B7</color>
+
+    <color name="PinkColorPrimary">#942F67</color>
+    <color name="PinkColorPrimaryDark">#8D00FD</color>
+    <color name="PinkColorSecondary">#8C769F</color>
+
+    <color name="RosewoodColorPrimary">#A04242</color>
+    <color name="RosewoodColorPrimaryDark">#007222</color>
+    <color name="RosewoodColorSecondary">#0069CA</color>
+
+    <color name="BumblebeeColorPrimary">#FCE205</color>
+    <color name="BumblebeeColorPrimaryDark">#F7E8E0</color>
+    <color name="BumblebeeColorSecondary">#A27558</color>
+
+    <color name="EggplantColorPrimary">#311432</color>
+    <color name="EggplantColorPrimaryDark">#DFE2F3</color>
+    <color name="EggplantColorSecondary">#6875A6</color>
+
+</resources>
